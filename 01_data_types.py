@@ -31,10 +31,12 @@ TASK 3:
 Write code that takes two numbers as input (an integer and a float), 
 performs addition, subtraction, multiplication, and division, and prints the results.
 """
-print(10 + 3.6) #i put my two integer and float to add
-print(10 - 3.6) #put them to subtract
-print(10 * 3.6) #put them to multiply
-print(10/3.6) #and lastly put them to divide all while printing out each of the results
+num1 = float(input("give me a float: ")) #this prompts the user to give me a float and then checks to see if it is an float.
+num2 = int(input("give me an integer: ")) #this prompts the user to give me a integer and then checks to see if it is an integer.
+print(num1 + num2) #i put my two integer and float to add
+print(num1 - num2) #put them to subtract
+print(num1 * num2) #put them to multiply
+print(num1/num2) #and lastly put them to divide all while printing out each of the results
 """
 TASK 4:
 
@@ -65,3 +67,8 @@ Use the join() function to combine all subjects into a single string separated b
 Then create another version using " - " as the separator.
 Print both the original list and both joined strings.
 """
+list1 = ["Art", "Math", "Music"]
+string = ",".join( list1 )
+print(string)
+dash_string = "-".join(list1)
+print(dash_string)
