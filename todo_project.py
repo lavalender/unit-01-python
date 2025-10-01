@@ -1,7 +1,8 @@
-list2 = []
+with open("todos.txt") as file: 
+    lists2 = file.readlines()
+
+print(lists2)
 print("Your current todo list is: ")
-#first you show your current list to the user
-print(list2)
 print("-------------------------------")
 while True: # i then used a while loop to continue the to do list forever
     add = input("Would you like to add or remove a todo? ")
@@ -27,5 +28,5 @@ while True: # i then used a while loop to continue the to do list forever
         for x in list2:
             print(x)
             #lastly i then show the updated list with what they have removed from the list. 
-        
+    
                 
