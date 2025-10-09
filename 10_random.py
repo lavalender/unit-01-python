@@ -35,6 +35,6 @@ and prints the shuffled result.
 """
 list2 = [""]
 nums = random.randrange(1, 11)
-
+    
 print(list2)
 
