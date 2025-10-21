@@ -3,6 +3,7 @@ Exercise 1:
 Check if an integer is even and greater than 10.
 Return True if both conditions are met, False otherwise.
 '''
+
 x = int(input("Pick a number: "))
 if x > 10:
     print("True")
@@ -48,7 +49,7 @@ If the order weight is less than 0 kg, return an error message.
 weight = int(input("What is the order weight? "))
 zones = input("What zone are you in? Zone A or Zone B ")
 if zones == "Zone A" or zones == "A":
-    price1 = 
+    price1 =
 
 
     
